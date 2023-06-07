@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+    justify-content: center;
+    
+}
+.main-box{
+    height: 750px;
+    width: 450px;
+    padding: 20px;
+    color: #fff;
+    background: #000;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading h3{
+    color:#77b1ff;
+}
+.heading span{
+    color:#77b1ff;
+    /* border: 2px solid #77b1ff;
+    border-radius: 5px;
+    padding:  2px; */
+}
+.player-div{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.ur-turn{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+
+}
+.ur-turn label{
+    color:#c4a8ff ;
+}
+.player1{
+
+  
+    border: 2px solid #c4a8ff;
+    
+    border-radius: 10px;
+    width: 150px;
+}
+.player2{
+   
+  
+    border: 2px solid #fad4aa;
+    border-radius: 10px;
+    width: 150px;
+}
+.inside-player1{
+    border-bottom: 2px solid #c4a8ff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inside-player2{
+    border-bottom: 2px solid #fad4aa;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.inside-player2 i{
+    font-size: 10px;
+    color: red;
+    
+}
+.user-img-div1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid #c4a8ff;
+    padding: 10px;
+}
+.user-img-div2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 2px solid #fad4aa;
+    padding: 10px;
+}
+.user-img-div1 img{
+    height: 35px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+.user-img-div2 img{
+    height: 35px;
+    width: 40px;
+    border-radius: 50%;
+
+}
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.cross{
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding: 50px 25px 0px 25px ;
+
+}
+.box-cross{
+    display: flex;
+    border: 3px solid grey;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+
+}
+.box-cross span{
+    font-size: 30px;
+    font-weight: 700;
+    color: #c4a8ff;
+}
+.first-row{
+    display: flex;
+}
+.btn{
+    color: #000 ;
+    background-color: #c4a8ff ;
+}
+.btn-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+/* .box-input{
+    display: none;
+} */
+.result{
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gif{
+    width: 150px;
+    padding: 20px;
+    display: none;
+}
+.info{
+    visibility: hidden ;
+}
+

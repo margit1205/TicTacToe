@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3ce1347322.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+    <title>TIC TAC TOE</title>
+</head>
+
+<body>
+    <section>
+        <div class="main-box">
+            <div class="heading">
+                <h3>Tic-Tac-Toe</h3>
+                <span><i class="fa-solid fa-gear"></i></span>
+            </div>
+            <div class="scoreboard">
+                <div class="player-div">
+                    <div class="first">
+                        <div class="ur-turn">
+                            <label class="info">YOUR TURN!</label>
+                        </div>
+                        <div class="player1">
+                            <div class="inside-player1">
+                                <label>P1- John</label>
+                            </div>
+                            <div class="user-img-div1">
+                                <img src="./pexels-pixabay-220453.jpg">
+                                <span style="font-size: 24px; margin-top: 5px;">X</span>
+                            </div>
+                            <div class="score">
+                                <label  class="result-count">0</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="second">
+                        <div class="ur-turn">
+                            <label class="info">YOUR TURN!</label>
+                        </div>
+                        <div class="player2">
+                            <div class="inside-player2">
+                                <label>P2- AI</label>
+                                <div class="circle-icon">
+                                    <span><i class="fa-sharp fa-solid fa-circle"></i></span>
+                                    <span><i class="fa-sharp fa-solid fa-circle"></i></span>
+                                    <span><i class="fa-sharp fa-solid fa-circle"></i></span>
+
+                                </div>
+                            </div>
+                            <div class="user-img-div2">
+                                <img src="./pexels-pixabay-220453.jpg">
+                                <span style="font-size: 24px; margin-top: 5px;">O</span>
+                            </div>
+                            <div class="score">
+                                <label class="result-count">0</label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="cross row">
+                <div class="first-row">
+                    <div class="box-cross col-4" style="border-left: 0; border-top: 0;">
+                    <span  class="box-input"id="box-input1"></span>
+                    </div>
+                    <div class="box-cross col-4" style="border-top:0">
+                        <span class="box-input" id="box-input2"></span>
+                    </div>
+                    <div class="box-cross col-4" style="border-top: 0; border-right:0">
+                        <span class="box-input" id="box-input3"></span>
+                    </div>
+                </div>
+                <div class="first-row">
+                    <div class="box-cross col-4" style="border-left: 0; border-top:0;">
+                        <span class="box-input" id="box-input4"></span>
+                    </div>
+                    <div class="box-cross col-4" style="border-top:0">
+                        <span class="box-input" id="box-input5"></span>
+                    </div>
+                    <div class="box-cross col-4" style="border-top: 0; border-right:0">
+                        <span class="box-input" id="box-input6"></span>
+                    </div>
+                </div>
+                <div class="first-row">
+                    <div class="box-cross col-4" style="border-left: 0; border-top: 0; border-bottom: 0;">
+                        <span class="box-input" id="box-input7"></span>
+                    </div>
+                    <div class="box-cross col-4" style="border-top:0; border-bottom: 0;">
+                        <span  class="box-input" id="box-input8"></span>
+                    </div>
+                    <div class="box-cross col-4" style="border-top: 0; border-right:0; border-bottom:0;">
+                        <span class="box-input" id="box-input9"></span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="btn-div">
+                <button class="home-btn btn">Go to Home</button>
+            </div>
+
+        </div>
+        <aside>
+            <div class="result">
+                <img id="gif" src="./excited.gif">
+                <button id="reset-btn"class="btn btn-primary">Reset</button>
+            </div>
+            
+        </aside>
+    </section>
+   
+    <script src="./app.js"></script>
+</body>
+
+</html>
